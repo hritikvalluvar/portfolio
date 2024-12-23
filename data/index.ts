@@ -49,10 +49,10 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Respiratory Monitoring Webapp",
+    title: "Currently building a Respiratory Monitoring System using a Gyroscope",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-160 w-96 opacity-70", // Increased size and reduced opacity
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/resHealth.png",
     spareImg: "/grid.svg",
@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "FresherServe",
-    des: "Project 1 descpription",
+    des: "Streamlined order management for catering businesses.",
     img: "/p1.png",
     iconLists: [
       "/django.svg",
@@ -90,7 +90,7 @@ export const projects = [
     des: "Efficient Jacobian matrix reduction for fNIR-DOT imaging.",
     img: "/3D_mesh_xy_plane.png",
     iconLists: ["/matlab.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/hritikvalluvar/masters-dissertation",
   },
   // {
   //   id: 3,

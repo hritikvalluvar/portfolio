@@ -13,50 +13,40 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Problem Identification & Solution Design"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="In this phase, we identify the core challenges you're facing. We’ll collaborate closely to map out your objectives, define requirements, and design a tailored AI or backend-driven solution that tackles your needs head-on. We'll discuss the project scope, technical architecture, and the integration of smart systems to automate processes."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-blue-800 rounded-3xl overflow-hidden"
           />
         </Card>
+
         <Card
-          title="Development & Progress Update"
+          title="Implementation & Algorithm Development"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="With the design in place, I dive into developing the backend infrastructure and integrating intelligent algorithms. Whether it's building APIs, optimizing databases, or deploying machine learning models, I focus on creating robust, scalable solutions. I keep you updated throughout, ensuring the solution is fine-tuned to meet your goals."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-green-700 rounded-3xl overflow-hidden"
             colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
+              [34, 193, 195],
+              [253, 187, 45],
             ]}
-            dotSize={2}
+            dotSize={3}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
+
         <Card
-          title="Development & Launch"
+          title="Deployment & Impactful Automation"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="The final phase brings everything together. I deploy the solution, ensuring everything runs smoothly and scales as needed. I integrate powerful automation features that reduce manual work, streamline workflows, and leverage AI-driven insights to drive continuous improvement. The goal is to create a system that evolves and adapts to your business needs over time."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
+            containerClassName="bg-purple-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />
         </Card>

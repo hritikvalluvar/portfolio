@@ -49,8 +49,12 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Python", "Django", "Generative AI", "FastAPI", "NLP"];
+  const rightLists = ["AI/ML", "AWS", "Data Engineering", "Docker", "Cloud Platforms"];
+
+
+
+
 
   const [copied, setCopied] = useState(false);
   const [isClient, setIsClient] = useState(false);
@@ -61,7 +65,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     if (isClient) {
-      const text = "hsu@jsmastery.pro";
+      const text = "hritikvalluvar@gmail.com";
       navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 3000); // Reset copied state after 3 seconds
