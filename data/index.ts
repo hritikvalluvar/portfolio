@@ -72,6 +72,28 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Acai Messaging App - Real-time Chat Platform",
+    des: "A modern messaging platform built with real-time chat, media sharing, and a sleek UI — perfect for communities and conversations.",
+    img: "/Acai.png",
+    iconLists: [
+      "/re.svg",         // Frontend
+      "/nodejs.svg",        // Backend
+      "/socketio.svg",     // Real-time communication
+      "/mongodb.svg",       // Database
+      "/tail.svg",   // Styling
+    ],
+    link: "/ui.aiimg.com",
+  },
+  {
+    id: 2,
+    title: "fNIR Brain Imaging",
+    des: "Efficient Jacobian matrix reduction for fNIR-DOT imaging.",
+    img: "/3D_mesh_xy_plane.png",
+    iconLists: ["/matlab.svg"],
+    link: "https://github.com/hritikvalluvar/masters-dissertation",
+  },
+  {
+    id: 3,
     title: "FresherServe",
     des: "Streamlined order management for catering businesses.",
     img: "/p1.png",
@@ -84,22 +106,6 @@ export const projects = [
     ],
     link: "http://tanujasbatterhouse.vercel.app/",
   },
-  {
-    id: 2,
-    title: "fNIR Brain Imaging",
-    des: "Efficient Jacobian matrix reduction for fNIR-DOT imaging.",
-    img: "/3D_mesh_xy_plane.png",
-    iconLists: ["/matlab.svg"],
-    link: "https://github.com/hritikvalluvar/masters-dissertation",
-  },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "/ui.aiimg.com",
-  // },
   // {
   //   id: 4,
   //   title: "Animated Apple Iphone 3D Website",
