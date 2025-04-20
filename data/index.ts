@@ -82,7 +82,7 @@ export const projects = [
       "/mongodb.svg",       // Database
       "/tail.svg",   // Styling
     ],
-    link: "/ui.aiimg.com",
+    link: "https://acai-uhoe.onrender.com",
   },
   {
     id: 2,
